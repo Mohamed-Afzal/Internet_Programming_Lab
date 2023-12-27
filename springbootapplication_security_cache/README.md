@@ -1,6 +1,5 @@
 ## This is a Spring Boot Application using Spring Security and Spring Cache.
-After running this project use the below link to access the API. While calling the API it will return to the spring boot internal login page.
-On that page use the below user credentials to log in and access the API.
+After running this project use the below link to access the API endpoint.
 
 In the CouponController 4 endpoints is there:
 1.  [Welcome Page](http://localhost:8080/myapp/)
@@ -8,9 +7,15 @@ In the CouponController 4 endpoints is there:
 3.  [Admin Page](http://localhost:8080/myapp/admin/)
 4.  [Admin Coupon Page](http://localhost:8080/myapp/admin/viewCoupon)
 
+While calling the API endpoint it will return to the spring boot internal login page.
+On that page use the below user credentials to log in and access the API.
+
 ## Users Credentials:
 1. User Name: user, Password: pass
 2. Admin Name: admin, Password: pass
+
+## Logout:
+To logout use the [url](http://localhost:8080/myapp/logout)
 
 ## Security:
 1. Admin:  Admin can access all the endpoints.
